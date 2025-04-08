@@ -52,6 +52,12 @@ cd immortalwrt-mt798x
 ./scripts/feeds install -a
 ```
 
+- 复制配置文件
+
+```bash
+cp -f defconfig/mt7981-ax3000.config .config
+```
+
 - 选择配置
 
 ```bash
@@ -65,6 +71,7 @@ make -j$(nproc) V=99
 ```
 
 - 编译完成后，固件在 `bin/targets/mt798x/immortalwrt-*.img.gz`
+- [教程](https://yuzhii0718.eu.org/2025/04/07/1/)
 
 ---
 

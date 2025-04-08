@@ -820,4 +820,4 @@ define Device/philips_hy3000
 	luci-app-samba4
   IMAGE/sysupgrade.bin := sysupgrade-tar | append-metadata
 endef
-TARGET_DEVICES += philips-hy3000
+TARGET_DEVICES += philips_hy3000
