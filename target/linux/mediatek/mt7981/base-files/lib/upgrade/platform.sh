@@ -219,6 +219,7 @@ platform_do_upgrade() {
 		;;
 	cmcc,rax3000m-emmc |\
 	cmcc,xr30-emmc |\
+	philips,hy3000 |\
 	*emmc*)
 		CI_KERNPART="kernel"
 		CI_ROOTPART="rootfs"
@@ -262,6 +263,7 @@ platform_check_image() {
 	cmcc,a10 |\
 	cmcc,rax3000m* |\
 	cmcc,xr30* |\
+	philips,hy3000 |\
 	h3c,nx30pro |\
 	*honor,fur-602* |\
 	*konka,komi-a31* |\
