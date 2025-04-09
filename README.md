@@ -70,8 +70,7 @@ make menuconfig
 make -j$(nproc) V=99
 ```
 
-- 编译完成后，固件在 `bin/targets/mt798x/immortalwrt-*.img.gz`
-- [教程](https://yuzhii0718.eu.org/2025/04/07/1/)
+- 编译完成后，固件在 `bin/targets/mt7981/immortalwrt-mediatek-mt7981-philips_hy3000-squashfs-sysupgrade.bin`
 
 ---
 
